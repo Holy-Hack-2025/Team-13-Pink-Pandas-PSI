@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Check if all required arguments are provided
-if [ "$#" -ne 4 ]; then
-    echo "Usage: $0 <file_name> <modality> <position> <company>"
-    echo "Example: $0 goods-flow-management.pdf image logistic-manager PSI summary.txt"
+if [ "$#" -ne 5 ]; then
+    echo "Usage: $0 <file_name> <modality> <position> <company> <openrouter_key>"
+    echo "Example: $0 goods-flow-management.pdf image logistic-manager PSI summary.txt ski-..."
     exit 1
 fi
 
@@ -12,6 +12,7 @@ file_name="$1"          # e.g., goods-flow-management.pdf
 modality="$2"           # e.g. your desired modality for information communication (text, image, or audio)
 position="$3"           # e.g., your position (floor manager, cargo driver, project manager, ect)
 company="$4"            # e.g., what kind of company you work at (business, logistics, transport, etc)
+key="$5"
 
 # Extract the base name (without .pdf) for the directory
 base_name=$(basename "$file_name" .pdf)  # e.g., goods-flow-management
