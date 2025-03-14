@@ -1,11 +1,10 @@
-
-
+import sys
 from openai import OpenAI
 
-key = input("Please input your key from OpenRouter: ")
-modality = input("Please input your desired modality for information communication (text, image, or audio): ")
-company = input("What kind of company do you work at (business, logistics, transport, etc)? ")
-position = input("What is your position (floor manager, cargo driver, project manager, ect): ")
+key = sys.argv[5]
+modality = sys.arg[2]
+company = sys.arg[4]
+position = sys.arg[3]
 
 with open("summary.txt","r") as f:
     proposal = f.read()
