@@ -1,10 +1,10 @@
 import sys
 from openai import OpenAI
 
-key = sys.argv[5]
+key = sys.argv[1]
 modality = sys.arg[2]
-company = sys.arg[4]
 position = sys.arg[3]
+company = sys.arg[4]
 
 with open("summary.txt","r") as f:
     proposal = f.read()
