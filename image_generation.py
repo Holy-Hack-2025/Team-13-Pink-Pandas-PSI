@@ -34,16 +34,8 @@ else:
   pipe = pipe.to("cuda")
 
 
-text = """
-Create an illustration of an efficient cargo reception process in a warehouse setting, easily understood by a floor manager at a transport company. The image should depict the following:
-
-1. *Pre-Arrangement*: A warehouse team preparing a designated area for incoming shipments, with clear labels and organized spaces.
-2. *Communication Flow*: A digital screen or tablet displaying detailed information about incoming shipments, including consignment contents, volume, packing list, and waybill.
-3. *Vehicle Coordination*: A truck approaching the warehouse, with a driver making a phone call to notify the warehouse team of arrival within one hour, as on a clock or timeline visual.
-4. *Scheduled Offloading*: A busy storage facility with a schedule board showing specific times for vehicle offloading, managed by a floor manager.
-5. *Problem Handling*: A designated area for damaged or expired items, clearly marked and separated from the main consignment, with a worker inspecting and tagging items for repair or disposal.
-6. *Internal Transfers*: A seamless process between two warehouses, with a digital system transmitting advanced delivery information to the receiving location.
-"""
+with open("prompt.txt","r") as f:
+    text = f.read()
 
 # Regex to extract each numbered step and its content
 steps = re.findall(r"\d+\.\s\*([A-Za-z\s]+)\*:\s([^\n]+)", text)
