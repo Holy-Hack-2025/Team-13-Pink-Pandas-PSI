@@ -2,7 +2,7 @@
 
 # Check if all required arguments are provided
 if [ "$#" -ne 5 ]; then
-    echo "Usage: $0 <file_name> <modality> <position> <company> <proposal>"
+    echo "Usage: $0 <file_name> <modality> <position> <company>"
     echo "Example: $0 goods-flow-management.pdf image logistic-manager PSI summary.txt"
     exit 1
 fi
@@ -12,7 +12,6 @@ file_name="$1"          # e.g., goods-flow-management.pdf
 modality="$2"           # e.g., image
 position="$3"           # e.g., logistic-manager
 company="$4"            # e.g., PSI
-proposal="$5"           # e.g., summary.txt
 
 # Extract the base name (without .pdf) for the directory
 base_name=$(basename "$file_name" .pdf)  # e.g., goods-flow-management
@@ -25,20 +24,20 @@ mkdir -p "$base_name"
 python pdf_summary.py "pdf/$file_name"
 
 # Move the generated summary to the new directory
-mv "output/summary.txt" "$base_name/summary_$base_name.txt"
+mv "output/summary.txt" "$base_name/summary.txt"
 
 # Generate prompt(s)
 python deepseek_promptgen.py --modality "$modality" \
     --position "$position"  \
     --company "$company"  \
-    --proposal "$base_name/$proposal"
+    --proposal "$base_name/summary.txt"
 
 # Check if prompts_img.txt exists in the directory and process each line
 prompts_img_file="$base_name/prompts_img.txt"
 if [ -f "$prompts_img_file" ]; then
     echo "Found $prompts_img_file. Processing..."
     python image_generation.py "$prompt"
-    
+
     # Move generated image files to the base_name directory
     echo "Moving generated images to $base_name/"
     mv output/output_step_*.jpg "$base_name/"
