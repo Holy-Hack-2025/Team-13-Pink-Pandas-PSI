@@ -1,0 +1,14 @@
+**Image Generation Prompt:**
+
+"Create a detailed and professional illustration depicting an ideal cargo reception process at a transport company's warehouse. The scene should include:  
+
+1. **Preparation:** A warehouse team organizing incoming shipments on pallets or shelves *before* the vehicle arrives, with clear communication lines shown (e.g., a worker using a tablet or computer to view advance shipment information).  
+2. **Advanced Information:** A scanned packing list, waybill, and consignment details displayed on a digital screen or tablet, emphasizing the pre-arrival communication.  
+3. **Vehicle Scheduling:** A delivery truck approaching the warehouse, with a driver communicating via radio or phone to confirm their arrival one hour in advance as per instructions.  
+4. **Efficient Offloading:** A scheduled offloading process with workers unloading a truck in an organized manner, using forklifts or pallet jacks in a busy but smooth operation.  
+5. **Damage/Expiry Handling:** A designated area for damaged or expired items, clearly marked with signage (e.g., "Quarantine" or "Damaged Goods"), separate from the main consignment.  
+6. **Inter-Warehouse Transfer:** A truck being loaded at one warehouse, with digital communication shown between two warehouse managers to ensure advanced delivery information is shared.  
+
+The image should have a clean, modern, and professional aesthetic, with clear labels or visual cues to highlight each step of the process. Use a neutral color palette with pops of color to emphasize key elements (e.g., the quarantine area or digital screens). The overall tone should convey efficiency, organization, and seamless communication."  
+
+This prompt will generate an image that visually communicates the ideal cargo reception process, making it easily understandable for a floor manager at a transport company.
