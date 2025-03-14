@@ -38,39 +38,11 @@ GenAI bridges this gap by providing **personalized, AI-driven explanations** tha
 
 ---
 
-## **Installation & Usage** 🚀
-### **Prerequisites**
-- Python 3.x
-- Required dependencies (see `requirements.txt`)
-
-### **Setup Instructions**
-```bash
-# Clone the repository
-git clone https://github.com/Holy-Hack-2025/Team-13-Pink-Pandas-PSI.git
-cd Team-13-Pink-Pandas-PSI
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
-
----
-
-## **Future Roadmap** 🛠️
+## **Future Development** 🛠️
 ✅ AI-powered chat interface for **interactive documentation Q&A**.  
 ✅ Enhanced **industry-specific customization** (e.g., finance, healthcare, software).  
 ✅ **Augmented Reality (AR) & Virtual Reality (VR)** integration for immersive learning.  
 ✅ Real-time **team collaboration & feedback** on documentation.  
-
----
-
-## **Contributing** 🤝
-We welcome contributions! If you're interested in improving the project, please:  
-📌 Fork the repo & submit a pull request.  
-📌 Report issues or suggest features via **GitHub Issues**.  
-📌 Join discussions to **collaborate on improvements**.  
 
 ---
 
