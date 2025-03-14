@@ -9,9 +9,9 @@ fi
 
 # Assign command-line arguments to variables
 file_name="$1"          # e.g., goods-flow-management.pdf
-modality="$2"           # e.g., image
-position="$3"           # e.g., logistic-manager
-company="$4"            # e.g., PSI
+modality="$2"           # e.g. your desired modality for information communication (text, image, or audio)
+position="$3"           # e.g., your position (floor manager, cargo driver, project manager, ect)
+company="$4"            # e.g., what kind of company you work at (business, logistics, transport, etc)
 
 # Extract the base name (without .pdf) for the directory
 base_name=$(basename "$file_name" .pdf)  # e.g., goods-flow-management
