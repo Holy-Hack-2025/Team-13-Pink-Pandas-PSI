@@ -14,7 +14,7 @@ Transform complex consulting reports into clear, actionable insights tailored fo
 
 With our GenAI-powered tool, you can upload detailed project documentation and instantly convert it into the format that best suits your audience—whether it's concise summaries, visual reports, structured process steps, images, or even audio explanations. 
 
-Simply define your role and preferences, and let the AI adapt the content for maximum clarity and impact. Perfect for consultants, managers, and stakeholders who need quick, tailored insights without losing critical details!
+Simply define your role and preferences, and let the GenAI adapt the content for maximum clarity and impact. Perfect for consultants, managers, and stakeholders who need quick, tailored insights without losing critical details!
 """
 
 st.write(description)
@@ -70,7 +70,7 @@ if uploaded_file and position and company:
 
     st.success(f"File saved as {file_path}")
 
-    # Step 3: Run Shell Script with User Inputs
+    # Run Shell Script with User Inputs
     if st.button("Generate Output"):
         command = [
             "bash", "main.sh",
@@ -86,7 +86,6 @@ if uploaded_file and position and company:
 
         st.success("Processing Complete!")
 
-        # Step 4: Display Outputs
         output_folder = uploaded_file.name.replace(".pdf", "")
         
         if modality == "image":
