@@ -15,12 +15,12 @@ def extract_text_from_pdf(pdf_path):
 # Function to summarize text
 def summarize_text(text):
     summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
-    # TODO adjust parameters based on sample text.
-    summary = summarizer(text, max_length=400, min_length=200, do_sample=False)
+    summary = summarizer(text, max_length=lentxt/2, min_length=lentxt/4, do_sample=False)
     return summary[0]['summary_text']
 
 # Example usage
 pdf_path = "pdfs/goods-flow-management.pdf"
 pdf_text = extract_text_from_pdf(pdf_path)
+lentxt = len(pdf_text)
 summary = summarize_text(pdf_text)
 print("Summary:", summary)
