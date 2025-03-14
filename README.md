@@ -54,5 +54,3 @@ GenAI bridges this gap by providing **personalized, AI-driven explanations** tha
 🚀 Built by **Team 13 - Pink Pandas PSI** as part of **Holy Hack 2025**.  
 💡 Special thanks to all contributors, mentors, and supporters!  
 
-📢 **Let's revolutionize documentation together!** 🚀
-
