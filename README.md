@@ -1,7 +1,7 @@
 # **GenAI Documentation Assistant** 
 
 ## **Overview**
-Welcome to **GenAI Documentation Assistant**, an AI-powered tool designed to **simplify complex project documentation** for different users based on their **expertise level, focus area, and preferred format** (text, audio, or visual).
+Welcome to **GenAI Documentation Assistant**, an AI-powered web tool  designed to **simplify complex project documentation** for different users based on their **expertise level, focus area, and preferred format** (text, audio, or visual).
 
 ### **Why This Matters?**
 📌 Lengthy and technical documentation often creates **barriers to understanding**.  
@@ -10,6 +10,10 @@ Welcome to **GenAI Documentation Assistant**, an AI-powered tool designed to **s
 
 GenAI bridges this gap by providing **personalized, AI-driven explanations** that **adapt** to each user's role and knowledge level.
 
+---
+
+## **Usage**
+```streamlit run app.py```
 ---
 
 ## **Features**
