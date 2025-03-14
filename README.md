@@ -74,11 +74,6 @@ We welcome contributions! If you're interested in improving the project, please:
 
 ---
 
-## **License** 📜
-This project is licensed under the **MIT License** – see the `LICENSE` file for details.  
-
----
-
 ## **Team & Credits** 🎉
 🚀 Built by **Team 13 - Pink Pandas PSI** as part of **Holy Hack 2025**.  
 💡 Special thanks to all contributors, mentors, and supporters!  
