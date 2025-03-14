@@ -24,7 +24,7 @@ mkdir -p "$base_name"
 # Assuming pdf_summary.py saves the summary to output/summary_<base_name>.txt
 python pdf_summary.py "$file_name"
 
-# Move the generated summary to the new directory
+# # Move the generated summary to the new directory
 mv "output/summary.txt" "$base_name/summary.txt"
 
 # Generate prompt(s)

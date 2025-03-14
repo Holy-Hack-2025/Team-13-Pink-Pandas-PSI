@@ -2,11 +2,12 @@ import sys
 from openai import OpenAI
 
 key = sys.argv[1]
-modality = sys.arg[2]
-position = sys.arg[3]
-company = sys.arg[4]
+modality = sys.argv[2]
+position = sys.argv[3]
+company = sys.argv[4]
+file = sys.argv[5]
 
-with open("summary.txt","r") as f:
+with open(file,"r") as f:
     proposal = f.read()
 
 client = OpenAI(

@@ -1,0 +1,17 @@
+**Prompt for Image Generation:**
+
+"Create a detailed and professional visual representation of an ideal cargo reception process for a transport company. The image should depict a well-organized warehouse environment with the following key elements:
+
+1. **Pre-Arrival Preparation:** Show a team of warehouse staff arranging designated areas for incoming shipments based on advanced information received (e.g., consignment contents, volume, packing list, and waybill). Include digital screens or tablets displaying shipment details.
+
+2. **Vehicle Communication:** Illustrate a truck driver using a phone or radio to notify the warehouse one hour before arrival. Include a clock or timer to emphasize the time buffer.
+
+3. **Scheduled Offloading:** Depict a busy storage facility with a scheduling board or digital display showing assigned time slots for vehicle offloading. Include a truck arriving at its designated time.
+
+4. **Handling Exceptions:** Show a separate, clearly marked area for damaged or expired items, with staff inspecting and labeling these items. Include a notification process (e.g., a staff member using a tablet to update the requesting party).
+
+5. **Internal Transfers:** Highlight a seamless process for cargo moving between two warehouses, with staff at the receiving location reviewing advanced delivery information on a digital device.
+
+The image should convey efficiency, organization, and clear communication, with a focus on modern technology and streamlined workflows. Use a professional and clean aesthetic, with labels or captions to clarify each step of the process." 
+
+This prompt ensures the image is easily understood by a floor manager and aligns with the project proposal.
