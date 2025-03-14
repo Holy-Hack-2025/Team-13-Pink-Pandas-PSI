@@ -25,6 +25,6 @@ completion = client.chat.completions.create(
     messages=[{"role": "user", "content": f"Could you generate a prompt for {modality} generation that would produce an image easily understood by a {position} at a {company} for the following project proposal : {proposal}"}]
 )
 
-f = open("prompt.txt", "w")
+f = open(f"prompts_{modality}.txt", "w")
 f.write(completion.choices[0].message.content)
 f.close()
