@@ -1,6 +1,7 @@
 from TTS.api import TTS
 import argparse
 
+
 def text_to_speech(text, output_file="output.wav", model_name="tts_models/en/ljspeech/tacotron2-DDC"):
     """
     Convert input text to speech and save it as an audio file.
