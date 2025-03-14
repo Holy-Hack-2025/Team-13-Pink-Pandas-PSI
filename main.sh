@@ -28,10 +28,11 @@ python pdf_summary.py "$file_name"
 mv "output/summary.txt" "$base_name/summary.txt"
 
 # Generate prompt(s)
-python deepseek_promptgen.py --modality "$modality" \
-    --position "$position"  \
-    --company "$company"  \
-    --proposal "$base_name/summary.txt"
+python deepseek_promptgen.py "$key" \
+    "$modality" \
+    "$position"  \
+    "$company"  \
+    "$base_name/summary.txt"
 
 mv prompts_*.txt "$base_name/"
 
@@ -43,7 +44,7 @@ if [ -f "$prompts_img_file" ]; then
 
     # Move generated image files to the base_name directory
     echo "Moving generated images to $base_name/"
-    mv output_step_*.jpg "$base_name/"
+    mv "output_step_*.jpg" "$base_name/"
 else
     echo "No $prompts_img_file found in $base_name/. Skipping image generation."
 fi
