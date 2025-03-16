@@ -42,9 +42,9 @@ GenAI bridges this gap by providing **personalized, AI-driven explanations** tha
 
 ---
 ## **Installation**
-1️⃣ Install the dependencies for all the required packages using the requirements.txt file.
-2️⃣ Generate your own API key for DeepSeek: DeepSeek V3 (free) on [openrouter.ai](https://openrouter.ai/deepseek/deepseek-chat:free/api).
-3️⃣ Run `streamlit run app.py`!
+1️⃣ Install the dependencies for all the required packages using the requirements.txt file.  
+2️⃣ Generate your own API key for DeepSeek: DeepSeek V3 (free) on [openrouter.ai](https://openrouter.ai/deepseek/deepseek-chat:free/api).  
+3️⃣ Run `streamlit run app.py`!  
 
 ## **Future Development** 🛠️
 ✅ AI-powered chat interface for **interactive documentation Q&A**.  
