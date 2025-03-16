@@ -22,7 +22,7 @@ completion = client.chat.completions.create(
     },
     extra_body={},
     model="deepseek/deepseek-chat:free",
-    messages=[{"role": "user", "content": f"Could you generate a prompt for {modality} generation that would produce an image easily understood by a {position} at a {company} for the following project proposal : {proposal}"}]
+    messages=[{"role": "user", "content": f"Could you generate a prompt for {modality} generation with numbered steps (like step 1, step 2, ...) that would produce an image easily understood by a {position} at a {company} for the following project proposal : {proposal}"}]
 )
 
 f = open(f"prompts_{modality}.txt", "w")

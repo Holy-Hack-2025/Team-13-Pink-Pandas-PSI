@@ -33,12 +33,16 @@ if use_refiner:
 else:
   pipe = pipe.to("cuda")
 
-
-with open("prompt.txt","r") as f:
+file = sys.argv[1]
+with open(file,"r") as f:
     text = f.read()
+    print(f"here's my text: {text}")
 
 # Regex to extract each numbered step and its content
-steps = re.findall(r"\d+\.\s\*([A-Za-z\s]+)\*:\s([^\n]+)", text)
+pattern = r"\**(?:Step\s*)?(\d+)[\.:]?\**\s*(.+)"
+steps = re.findall(pattern, text)
+# the generated output sometimes has different formatting
+# steps = re.findall(r"\d+\.\s\*([A-Za-z\s]+)\*:\s([^\n]+)", text)
 
 # Initialize the seed
 seed = random.randint(0, sys.maxsize)

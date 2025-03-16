@@ -1,17 +1,60 @@
-**Prompt for Image Generation:**
+Here’s a detailed prompt for image generation with numbered steps to visually represent the ideal cargo reception process for a floor manager at a transport company:
 
-"Create a detailed and professional visual representation of an ideal cargo reception process for a transport company. The image should depict a well-organized warehouse environment with the following key elements:
+---
 
-1. **Pre-Arrival Preparation:** Show a team of warehouse staff arranging designated areas for incoming shipments based on advanced information received (e.g., consignment contents, volume, packing list, and waybill). Include digital screens or tablets displaying shipment details.
+**Prompt for Image Generation: "Ideal Cargo Reception Process for Warehouse Operations"**
 
-2. **Vehicle Communication:** Illustrate a truck driver using a phone or radio to notify the warehouse one hour before arrival. Include a clock or timer to emphasize the time buffer.
+**Objective:** Create a clear, step-by-step visual guide that illustrates the ideal cargo reception process for a transport company. The image should be easily understood by a floor manager and emphasize key actions, communication flows, and decision points.
 
-3. **Scheduled Offloading:** Depict a busy storage facility with a scheduling board or digital display showing assigned time slots for vehicle offloading. Include a truck arriving at its designated time.
+---
 
-4. **Handling Exceptions:** Show a separate, clearly marked area for damaged or expired items, with staff inspecting and labeling these items. Include a notification process (e.g., a staff member using a tablet to update the requesting party).
+**Instructions:**  
+1. **Step 1: Pre-Arrival Preparation**  
+   - Visualize a warehouse team preparing for incoming shipments.  
+   - Show a tablet or computer screen displaying shipment details (consignment contents, volume, scanned packing list, and waybill).  
+   - Include a calendar or schedule with incoming shipments marked.  
 
-5. **Internal Transfers:** Highlight a seamless process for cargo moving between two warehouses, with staff at the receiving location reviewing advanced delivery information on a digital device.
+2. **Step 2: Vehicle Notification**  
+   - Depict a truck driver calling the warehouse one hour before arrival.  
+   - Show a warehouse employee receiving the call and updating the schedule.  
+   - Add a clock or timer to emphasize the one-hour advance notice.  
 
-The image should convey efficiency, organization, and clear communication, with a focus on modern technology and streamlined workflows. Use a professional and clean aesthetic, with labels or captions to clarify each step of the process." 
+3. **Step 3: Vehicle Scheduling for Busy Facilities**  
+   - Highlight a busy warehouse with multiple trucks arriving.  
+   - Show a scheduling board or digital display assigning specific unloading times to vehicles.  
+   - Include employees directing trucks to designated unloading bays.  
 
-This prompt ensures the image is easily understood by a floor manager and aligns with the project proposal.
+4. **Step 4: Cargo Inspection and Offloading**  
+   - Illustrate warehouse staff inspecting incoming shipments as they are offloaded.  
+   - Show damaged or expired items being separated and placed in a marked area labeled "Damaged/Expired Items."  
+   - Include a scanner for verifying items against the packing list.  
+
+5. **Step 5: Handling Dispatch Issues**  
+   - Depict a scenario where items cannot be dispatched (damaged, expired, or missing).  
+   - Show employees notifying the requesting party via phone or computer.  
+   - Include a document labeled "Release Order" being updated or modified.  
+
+6. **Step 6: Internal Transfers Between Warehouses**  
+   - Visualize a truck moving cargo between two warehouses.  
+   - Show the receiving warehouse being informed in advance via a computer or mobile device.  
+   - Include employees at the receiving warehouse preparing to offload the shipment efficiently.  
+
+7. **Step 7: Final Storage and Documentation**  
+   - Depict undamaged items being organized and stored in the warehouse.  
+   - Show employees updating inventory records on a computer or clipboard.  
+   - Include a well-marked area for damaged/expired items labeled for repair or disposal.  
+
+---
+
+**Style and Details:**  
+- Use a clean, professional, and minimalist design with clear labels and icons.  
+- Include arrows or flow lines to indicate the sequence of steps.  
+- Use a neutral color palette (e.g., blues, grays, and greens) to maintain a professional tone.  
+- Add small, relevant icons (e.g., trucks, phones, calendars, scanners, and bins) to enhance understanding.  
+
+**Output:**  
+A single, cohesive image that presents the entire process in a logical, easy-to-follow manner for a floor manager.  
+
+--- 
+
+This prompt ensures the generated image is both informative and visually appealing for the intended audience.

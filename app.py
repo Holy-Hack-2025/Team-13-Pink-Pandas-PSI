@@ -3,7 +3,7 @@ import subprocess
 import os
 from PIL import Image
 
-st.image("bridge-Photoroom-2.png", use_container_width=True)
+#st.image("bridge-Photoroom-2.png", use_container_width=True)
 
 st.title("BrieflyAI 🤖")
 
@@ -27,6 +27,8 @@ if "modality" not in st.session_state:
     st.session_state["modality"] = "Images"
 if "company" not in st.session_state:
     st.session_state["company"] = ""
+if "key" not in st.session_state:
+    st.session_state["key"] = ""
 
 # User Background Input
 position = st.text_input(
@@ -45,6 +47,12 @@ modality = st.radio(
     "Preferred Output Format:",
     ["Images", "Audio"],
     index=0 if st.session_state["modality"] == "Images" else 1
+)
+
+# API key
+key = st.text_input(
+    "Enter your API key:",
+    value=st.session_state["key"]
 )
 
 # File uploader
@@ -77,7 +85,8 @@ if uploaded_file and position and company:
             uploaded_file.name,  # File name
             modality,  # Image or audio
             position,  # User's position
-            company  # Company name
+            company,  # Company name
+            key # AI key
         ]
 
         with st.spinner("Processing... Please wait."):

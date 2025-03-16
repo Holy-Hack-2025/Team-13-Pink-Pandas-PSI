@@ -44,7 +44,7 @@ if [ -f "$prompts_img_file" ]; then
 
     # Move generated image files to the base_name directory
     echo "Moving generated images to $base_name/"
-    mv "output_step_*.jpg" "$base_name/"
+    mv output_step_*.jpg "$base_name/"
 else
     echo "No $prompts_img_file found in $base_name/. Skipping image generation."
 fi
